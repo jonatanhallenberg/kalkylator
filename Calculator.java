@@ -16,8 +16,8 @@
 
         if (calculation.indexOf('-') > -1) {
             String[] splitCalc = calculation.split("\\-");
-            int sum = Integer.parseInt(splitCalc[0]) - Integer.parseInt(splitCalc[1]);
-            System.out.println("Svaret är: " + sum);
+            int sum2 = Integer.parseInt(splitCalc[0]) - Integer.parseInt(splitCalc[1]);
+            System.out.println("Svaret är: " + sum2);
         }
 
         if (calculation.indexOf('*') > -1) {
